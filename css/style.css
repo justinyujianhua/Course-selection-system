@@ -1,0 +1,80 @@
+/*自定义css*/
+body {
+  padding-top: 150px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+    .form-signin {
+        max-width: 350px;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: rgba(255,255,255,.8);
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+        box-shadow: 1px 1px 8px rgba(0,0,0,.6);
+      }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin input[type="text"],
+      .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+      }
+      h2{
+      	font-size: 26px;
+      	color: #00a1cb;
+        text-shadow:1px 1px 2px rgba(0,0,0,.2);
+        text-align: center;
+      }
+      #btn{
+        display: block;
+        width: 250px;
+        text-decoration: none;
+        font-size:16px;
+        font-weight: bold;
+      }
+      footer>p{
+        color: white;
+        margin-top: 65px;
+      }
+      .dropdown-custom{
+      }
+.table-custom{
+	margin-top: -50px;
+}
+a:hover{
+	text-decoration: none;
+}
+.btn-custom{
+	margin: 0 10px;
+}
+ol li{
+	font-size: 12px;
+}
+ol div{
+	font-size: 12px;
+}
+ul li{
+	list-style: none;
+	padding: 5px 0;
+}
+.breadcrumb {
+padding: 0px 2px;
+margin-bottom: 0px;
+}
+.panel-custom{
+	margin-top: -80px;
+}
+.prp{
+	display: block;
+}
