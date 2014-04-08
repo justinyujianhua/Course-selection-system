@@ -78,3 +78,19 @@ margin-bottom: 0px;
 .prp{
 	display: block;
 }
+
+
+/*----------个人资料编辑----------*/
+.form-horizontal .control-label {
+text-align: left;
+}
+
+
+
+.input-group-custom{
+  margin: 30px 0;
+
+}
+.form-control-custom{
+  width: 60% !important;
+}
