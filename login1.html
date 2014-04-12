@@ -28,26 +28,20 @@
     <![endif]-->
   </head>
 
-  <body class="bodybg">
+  <body>
 
   <div class="container">
-   <!-- Jumbotron -->
-        <h1 class="title" id="rollin">太原理工大学选课系统</h1>
- 
-      <div class="text-center" >
- 
-         <div class="inline" ><a  class="login" href="login1.html"><img  id="student" src="images/studentlogin.png"></a></div> 
-
-          <div class="inline"><a class="login" href="login2.html"><img id="teacher"  src="images/teacherlogin.png"></a></div>
-          
-      </div>
-
+      <form class="form-signin" role="form">
+        <h2 class="form-signin-heading">太原理工大学选课系统</h2>
+        <input type="text" class="form-control" placeholder="请输入学号（工号）" required autofocus>
+        <input type="password" class="form-control" placeholder="请输入密码" required>
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> 记住我
+        </label>
+        <a class="btn btn-lg btn-primary btn-block" href="main.html" type="submit">登 录</a>
+      </form>
  </div> <!-- /container -->
-<footer>
-  <div class="text-center">
-    powered by 郁剑华 软件工程1019
-  </div>
-</footer>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
